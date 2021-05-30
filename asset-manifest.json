@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/agit-hando/static/css/main.5ea4993a.chunk.css",
+    "main.js": "/agit-hando/static/js/main.dfee7308.chunk.js",
+    "main.js.map": "/agit-hando/static/js/main.dfee7308.chunk.js.map",
+    "runtime-main.js": "/agit-hando/static/js/runtime-main.53a08084.js",
+    "runtime-main.js.map": "/agit-hando/static/js/runtime-main.53a08084.js.map",
+    "static/js/2.17aa7090.chunk.js": "/agit-hando/static/js/2.17aa7090.chunk.js",
+    "static/js/2.17aa7090.chunk.js.map": "/agit-hando/static/js/2.17aa7090.chunk.js.map",
+    "index.html": "/agit-hando/index.html",
+    "static/css/main.5ea4993a.chunk.css.map": "/agit-hando/static/css/main.5ea4993a.chunk.css.map",
+    "static/js/2.17aa7090.chunk.js.LICENSE.txt": "/agit-hando/static/js/2.17aa7090.chunk.js.LICENSE.txt",
+    "static/media/cart.8d8861fa.jpg": "/agit-hando/static/media/cart.8d8861fa.jpg",
+    "static/media/cbr-1.4460d53f.jpg": "/agit-hando/static/media/cbr-1.4460d53f.jpg",
+    "static/media/cbr-150.a1426d86.png": "/agit-hando/static/media/cbr-150.a1426d86.png",
+    "static/media/cbr-2.5267a349.jpg": "/agit-hando/static/media/cbr-2.5267a349.jpg",
+    "static/media/cbr-3.4cc58de9.jpg": "/agit-hando/static/media/cbr-3.4cc58de9.jpg",
+    "static/media/honda-logo.4d6d1660.png": "/agit-hando/static/media/honda-logo.4d6d1660.png",
+    "static/media/honda-logo1.2d3223ea.png": "/agit-hando/static/media/honda-logo1.2d3223ea.png",
+    "static/media/shockbreaker.ab354c37.png": "/agit-hando/static/media/shockbreaker.ab354c37.png",
+    "static/media/supra-gtr-150.1b16d8b1.png": "/agit-hando/static/media/supra-gtr-150.1b16d8b1.png",
+    "static/media/vario-150.97071715.png": "/agit-hando/static/media/vario-150.97071715.png",
+    "static/media/visor.20e651ac.jpg": "/agit-hando/static/media/visor.20e651ac.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53a08084.js",
+    "static/js/2.17aa7090.chunk.js",
+    "static/css/main.5ea4993a.chunk.css",
+    "static/js/main.dfee7308.chunk.js"
+  ]
+}
