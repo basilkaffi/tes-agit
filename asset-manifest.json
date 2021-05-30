@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/agit-hando/static/css/main.5ea4993a.chunk.css",
-    "main.js": "/agit-hando/static/js/main.dfee7308.chunk.js",
-    "main.js.map": "/agit-hando/static/js/main.dfee7308.chunk.js.map",
+    "main.js": "/agit-hando/static/js/main.d2d0bd49.chunk.js",
+    "main.js.map": "/agit-hando/static/js/main.d2d0bd49.chunk.js.map",
     "runtime-main.js": "/agit-hando/static/js/runtime-main.53a08084.js",
     "runtime-main.js.map": "/agit-hando/static/js/runtime-main.53a08084.js.map",
     "static/js/2.17aa7090.chunk.js": "/agit-hando/static/js/2.17aa7090.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.53a08084.js",
     "static/js/2.17aa7090.chunk.js",
     "static/css/main.5ea4993a.chunk.css",
-    "static/js/main.dfee7308.chunk.js"
+    "static/js/main.d2d0bd49.chunk.js"
   ]
 }
