@@ -9,5 +9,5 @@ export const DELETE_PRODUCT = "DELETE_PRODUCT";
 export const DELETE_ITEM = "DELETE_ITEM";
 export const DELETE_BULK_ITEM = "DELETE_BULK_ITEM";
 export const CHANGE_TOTAL_PRODUCT = "CHANGE_TOTAL_PRODUCT";
-// export const url = "https://agit-hando.herokuapp.com";
-export const url = "http://localhost:8000";
+export const url = "https://agit-hando.herokuapp.com";
+// export const url = "http://localhost:8000";
