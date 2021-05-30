@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Switch, Route, Redirect
 } from "react-router-dom";
 import { useEffect } from "react";
@@ -58,7 +58,7 @@ function RouterElement() {
   }, []);
 
   return (
-    <Router>
+    <BrowserRouter basename="/client">
       <Switch>
         {routesEnter.map(({path, Component}, idx) => (
           <Route key={idx} exact path={path} render={() => user.name
@@ -92,7 +92,7 @@ function RouterElement() {
           }} />
         ))}
       </Switch>
-    </Router>
+    </BrowserRouter>
   );
 }
 

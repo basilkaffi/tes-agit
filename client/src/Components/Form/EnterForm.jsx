@@ -4,6 +4,7 @@ import InputElement from "./InputElement";
 import { useHistory } from "react-router-dom";
 import Image from "../../Assets/images/cbr-3.jpg";
 import { login, register } from "../../Store/actions/user";
+import { getItem } from "../../Store/actions/item";
 import { useDispatch } from "react-redux";
 import Modal from "../Modal";
 
@@ -23,10 +24,10 @@ function Enter(props) {
       data.role = admin ? "admin" : "user";
       dispatch(login(data)).then((resp) => {
         history.push(`/${admin ? "admin" : ""}`)
+        dispatch(getItem());
       })
     } else {
       const data = { name, email, password };
-      console.log(data);
       dispatch(register(data)).then((resp) => {
         setIsOpen(true);
       })
