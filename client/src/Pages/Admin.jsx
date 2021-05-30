@@ -147,7 +147,11 @@ function Admin() {
       <div className="w-4/5">
         <div className="flex w-full justify-end my-8">
           <div 
-            onClick={() => setIsOpen(true)}
+            onClick={() => {
+              setDetail();
+              setDlt();
+              setIsOpen(true);
+            }}
             className="ml-auto flex py-2 pr-2 rounded bg-green-600 text-white hover:bg-green-700 focus:outline-none cursor-pointer"
           >
             <Add class={`h-6 w-6`} />
@@ -210,6 +214,7 @@ function Admin() {
               dispatch(updateProduct({
                 name, price, category, total, image, id:detail.id
               }))
+              setDetail()
             } else if(dlt) {
               dispatch(deleteProduct(dlt.id))
               setDlt()
