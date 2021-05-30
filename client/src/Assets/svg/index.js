@@ -1,0 +1,11 @@
+export { default as Add } from "./Add";
+export { default as Burger } from "./Burger";
+export { default as Camera } from "./Camera";
+export { default as Cart } from "./Cart";
+export { default as Check } from "./Check";
+export { default as Chevron } from "./Chevron";
+export { default as Close } from "./Close";
+export { default as EyeOpen } from "./EyeOpen";
+export { default as EyeClose } from "./EyeClose";
+export { default as Logout } from "./Logout";
+export { default as Person } from "./Person";
