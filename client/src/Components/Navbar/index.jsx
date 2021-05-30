@@ -6,7 +6,7 @@ import Cart from "./Cart";
 import User from "./User";
 import Burger from "./Burger";
 import { useSelector, useDispatch } from "react-redux";
-import { LOGIN } from "../../Store/type";
+import { LOGIN, DELETE_BULK_ITEM } from "../../Store/type";
 
 function Navbar() {
 
@@ -22,7 +22,11 @@ function Navbar() {
       dispatch({
         type:LOGIN,
         payload: {}
-      });
+      })
+      dispatch({
+        type: DELETE_BULK_ITEM,
+        payload: null
+      })
     } else if(selectedButton === "Register" || selectedButton === "Login"){
       history.push(`/${selectedButton.toLowerCase()}`);
     } else if(selectedButton === "sport"

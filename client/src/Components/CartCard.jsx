@@ -10,14 +10,18 @@ function CartCard(props) {
   const dispatch = useDispatch();
   const [isOpen, setIsOpen] = useState(false);
   const subtract = () => {
-    dispatch(updateItem({
-      total:data.total - 1, change:1, symbol:"-", id:data.id, ProductId:data.ProductId
-    }))
+    if(data.total > 1) {
+      dispatch(updateItem({
+        total:data.total - 1, change:1, symbol:"-", id:data.id, ProductId:data.ProductId
+      }))
+    }
   }
   const add = () => {
-    dispatch(updateItem({
-      total:data.total + 1, change:1, symbol:"+", id:data.id, ProductId:data.ProductId
-    }))
+    if(data.total < data.Product.total) {
+      dispatch(updateItem({
+        total:data.total + 1, change:1, symbol:"+", id:data.id, ProductId:data.ProductId
+      }))
+    }
   }
 
   return (
